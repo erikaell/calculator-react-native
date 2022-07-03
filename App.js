@@ -24,7 +24,7 @@ export default function App() {
   }
 
   function handlePercentage() {
-    setSecondValue(secondValue * 1 / 100)
+    setResult(firstValue * (secondValue * 1 / 100))
   }
 
   function handleClear() {
